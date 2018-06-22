@@ -1,0 +1,30 @@
+<!--
+ * Copyright (c) 2018, ETH Zurich.
+ * All rights reserved.
+ *
+ * This file is distributed under the terms in the attached LICENSE file.
+ * If you do not find this file, copies can be found by writing to:
+ * ETH Zurich D-INFK, Haldeneggsteig 4, CH-8092 Zurich. Attn: Systems Group.
+-->
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="choose_extensions.css"/>
+  </head>
+
+<body>
+    <p>Please select on of the options to save your data to a file</p>
+    <div class="button">I have an ad blocker (AdBlock, ABP, Ghostify,...)</div>
+    <div class="button">I don't have an ad blocker</div>
+    <p>Please select a file below to encrypt it</p>
+    <input type="file" id="inputFile" multiple>
+    <div id="result-content" class="hidden">
+        <p>An error occured</p>
+    </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+
+/*
+ * Copyright (c) 2018, ETH Zurich.
+ * All rights reserved.
+ *
+ * This file is distributed under the terms in the attached LICENSE file.
+ * If you do not find this file, copies can be found by writing to:
+ * ETH Zurich D-INFK, Haldeneggsteig 4, CH-8092 Zurich. Attn: Systems Group.
+ */
+
+html, body {
+  width: 400px;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  background-color: #E5F2F2;
+}
+
+.button:hover {
+  background-color: #CFF2F2;
+}
+
+.hidden {
+  display: none;
+}
+

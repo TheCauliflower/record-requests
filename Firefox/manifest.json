@@ -1,0 +1,38 @@
+{
+  "description": "Provides with an easy way to record and output to file all requests issued by websites!",
+  "manifest_version": 2,
+  "name": "requests-recording-tool",
+  "version": "1.1",
+  "author":  "Jean Kaufmann",
+
+  "applications": {
+    "gecko": {
+      "id": "data-collection@sympro.ch"
+    }
+  },
+
+  "permissions": [
+    "webRequest",
+    "storage",
+    "unlimitedStorage",
+    "downloads",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+
+  "icons": {
+  "48": "icons/icon-48.png",
+  "96": "icons/icon-96.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    },
+    "default_title": "Save records to file"
+  }
+}

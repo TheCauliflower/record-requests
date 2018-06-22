@@ -37,7 +37,7 @@ On Firefox:
     - The browser version
     - The extension version
 
-When pressing the toolbar button, a popup shows up, allowing the user to specify whether he is using an AdBlock or not. The data gathered is retrieved from the local storage, translated into a file using the downloads API and saved in the directory chosen by the user. After saving to file, the local storage is wiped.
+When pressing the toolbar button, a popup shows up, allowing the user to specify whether he is using an AdBlock or not. The data gathered is retrieved from the local storage, translated into a file using the downloads API and saved in the directory chosen by the user. After saving to file, the local storage is wiped. Alternatively, the user can also use the popup to encrypt a file using our embedded public key.
 
 Currently the output format is one line per request, with the details separated by a whitespace. After the requests, three lines specify the meta-data
 

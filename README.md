@@ -8,6 +8,20 @@ ETH Zurich D-INFK, Universitaetsstrasse 6, CH-8092 Zurich. Attn: Systems Group.
 
 --------------------------------------------------------------------------------
 
+Installation
+============
+The easiest way to install the extension is to grab it from the corresponding extensions store:
+- For Mozilla Firefox: https://addons.mozilla.org/fr/firefox/addon/requests-recording-tool/
+- For Google Chrome: https://chrome.google.com/webstore/detail/requests-recording-tool/cfedelpfmiadnhgbpgkidflofjfidfgb?hl=en
+
+Once the installation completed, the extension will be recording!
+
+Usage
+=====
+To use one of the extension's feature, click on the extension's icon (a floppy disk) in the browser's bar at the top right of the window. You can: 
+- save the recorded requests to file, by selecting whether or not you use an ad-blocker.
+- encrypt a file by using the file picker.
+
 Description
 =======
 Summary
